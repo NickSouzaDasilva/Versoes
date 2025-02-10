@@ -10,6 +10,8 @@
 - 🛠️ **Mensagem de Avaliação Condicional**: Exibição de avaliações apenas para tickets ativos.
 - 🛠️ **Correção de Áudio no iPhone**: Áudio agora reproduz corretamente.
 - 🛠️ **Compatibilidade com Modo Dark**: Correção no chat e logos adaptadas para temas claro/escuro.
+- 🛠️ **Correção das mensagens editadas no chat**: Agora as mensagens editadas pelo sistema e pelo celular retornam à atualização correta.
+- 🛠️ **Melhoria na recepção das mensagens**: Agora as mensagens recebidas e enviadas são validadas de forma correta, evitando perda de mensagens no chat.
 
 ### Atualizações:
 - 🔄 **OpenAI e wbotMessageListener.ts**: Atualizado para `"openai": "3.3.0"`.
@@ -18,6 +20,8 @@
 
 ### Novas Funcionalidades:
 - ✨ **Integração com Kanban**: Kanban integrado e reformulado.
+- ✨ **Adicionado paleta de emojis no Chat Interno**.
+- ✨ **Adicionado Log de atualização do sistema**.
 
 ---
 
