@@ -1,6 +1,6 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.17 - 10/02/2025
+## 🚀 Versão 1.0.17 - 17/02/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Redimensionamento da Área de Ticket**: Resolvido erro ao redimensionar.
@@ -11,7 +11,10 @@
 - 🛠️ **Correção de Áudio no iPhone**: Áudio agora reproduz corretamente.
 - 🛠️ **Compatibilidade com Modo Dark**: Correção no chat e logos adaptadas para temas claro/escuro.
 - 🛠️ **Correção das mensagens editadas no chat**: Agora as mensagens editadas pelo sistema e pelo celular retornam à atualização correta.
+- 🛠️ **Correção das mensagens respondidas no chat**: Agora as mensagens respondidas pelo lado do cliente e do atendente funcionam corretamente.
 - 🛠️ **Melhoria na recepção das mensagens**: Agora as mensagens recebidas e enviadas são validadas de forma correta, evitando perda de mensagens no chat.
+- 🛠️ **Melhoria na mensagem de opção invalida**: Agora quando é informada uma mensagem que não existe no menu de opções,
+ele retorna a mensagem ao usuário informando para digitar # para voltar ao menu de opções e informar uma opção valida do menu.
 
 ### Atualizações:
 - 🔄 **OpenAI e wbotMessageListener.ts**: Atualizado para `"openai": "3.3.0"`.
@@ -22,6 +25,8 @@
 - ✨ **Integração com Kanban**: Kanban integrado e reformulado.
 - ✨ **Adicionado paleta de emojis no Chat Interno**: Agora é possível mandar emojis no chat interno.
 - ✨ **Adicionado Log de atualização do sistema**: Agora é possível ver o que foi modificado e implementado no sistema.
+- ✨ **Adicionados novos gráficos ao Dashboard**: Agora é possível visualizar os gráficos por:
+Atendimentos dos atendentes, Atendimentos por Departamentos/Filas, Horário de Pico - Troca de mensagens.
 
 ---
 
