@@ -1,6 +1,6 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.17 - 17/02/2025
+## 🚀 Versão 1.0.17 - 23/02/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Redimensionamento da Área de Ticket**: Resolvido erro ao redimensionar.
