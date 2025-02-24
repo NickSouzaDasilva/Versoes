@@ -24,6 +24,7 @@ ele retorna a mensagem ao usuário informando para digitar # para voltar ao menu
 ### Novas Funcionalidades:
 - ✨ **Integração com Kanban**: Kanban integrado e reformulado.
 - ✨ **Adicionado paleta de emojis no Chat Interno**: Agora é possível mandar emojis no chat interno.
+- ✨ **Adicionado ao Editar mensagens, paleta de emoji**: Agora é possível mandar emoji ao editar as mensagens.
 - ✨ **Adicionado Log de atualização do sistema**: Agora é possível ver o que foi modificado e implementado no sistema.
 - ✨ **Adicionados novos gráficos ao Dashboard**: Agora é possível visualizar os gráficos por:
 Atendimentos dos atendentes, Atendimentos por Departamentos/Filas, Horário de Pico - Troca de mensagens.
