@@ -1,5 +1,16 @@
 # Log de Versões
 
+## 🚀 Versão 1.0.18 - 07/04/2025
+
+### Correções e Melhorias:
+- 🛠️ **Gestão de Arquivos no Servidor**: Ajustamos o processo de conversão de arquivos (áudio, vídeo, fotos e documentos). Agora, após a conversão, somente o arquivo convertido é mantido na pasta da empresa, evitando duplicidades e otimizando o espaço no servidor
+
+
+### Novas Funcionalidades:
+- ✨ **Botão de Sair**: Incluímos um botão que permite encerrar a conversa sem enviar notificações. Com essa funcionalidade, o ticket é automaticamente fechado e o fluxo do bot é reiniciado.
+
+---
+
 ## 🚀 Versão 1.0.17 - 23/02/2025
 
 ### Correções e Melhorias:
