@@ -3,7 +3,7 @@
 ## 🚀 Versão 1.0.18 - 07/04/2025
 
 ### Correções e Melhorias:
-- 🛠️ Gestão de Arquivos no Servidor: Otimizamos o processo de conversão de arquivos (áudio, vídeo, fotos e documentos). Agora, após a conversão, apenas o arquivo final é mantido na pasta da empresa, eliminando duplicidades e economizando espaço no servidor.
+- 🛠️ **Gestão de Arquivos no Servidor**: Otimizamos o processo de conversão de arquivos (áudio, vídeo, fotos e documentos). Agora, após a conversão, apenas o arquivo final é mantido na pasta da empresa, eliminando duplicidades e economizando espaço no servidor.
 - 🛠️ **Respostas de Mensagens**: Agora é possível responder a áudios, imagens e vídeos diretamente na conversa.
 
 
