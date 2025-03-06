@@ -4,7 +4,6 @@
 
 ### Correções e Melhorias:
 - 🛠️ **Gestão de Arquivos no Servidor**: Otimizamos o processo de conversão de arquivos (áudio, vídeo, fotos e documentos). Agora, após a conversão, apenas o arquivo final é mantido na pasta da empresa, eliminando duplicidades e economizando espaço no servidor.
-- 🛠️ **Respostas de Mensagens**: Agora é possível responder a áudios, imagens e vídeos diretamente na conversa.
 
 
 ### Atualizações:
@@ -12,6 +11,7 @@
 
 ### Novas Funcionalidades:
 - ✨ **Botão de Sair**: Incluímos um botão que permite encerrar a conversa sem enviar notificações. Com essa funcionalidade, o ticket é automaticamente fechado e o fluxo do bot é reiniciado.
+- ✨ **Respostas de Mensagens**: Agora é possível responder a áudios, imagens e vídeos diretamente na conversa.
 
 ---
 
