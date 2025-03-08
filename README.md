@@ -4,6 +4,7 @@
 
 ### Correções e Melhorias:
 - 🛠️ **Gestão de Arquivos no Servidor**: Otimizamos o processo de conversão de arquivos (áudio, vídeo, fotos e documentos). Agora, após a conversão, apenas o arquivo final é mantido na pasta da empresa, eliminando duplicidades e economizando espaço no servidor.
+- 🛠️ ""Botão 'Sair' Exclusivo para Administradores"": Agora, apenas administradores podem usar este botão para encerrar a conversa sem enviar mensagens, reiniciando o fluxo do bot de forma discreta e controlada.
 
 
 ### Atualizações:
