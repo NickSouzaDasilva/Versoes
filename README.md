@@ -1,5 +1,121 @@
 # Log de Versões
 
+
+## 🚀 Versão 1.0.22 - 05/05/2025
+
+### Correções e Melhorias:
+- 🛠️ **Troca de componentes para Switch**: Substituição de campos antigos por switches para melhorar a usabilidade.  
+- 🛠️ **Melhorias no Layout**: Ajustes visuais para consistência e responsividade.  
+- 🛠️ **Mudança de Table para Grid**: Substituição de tabelas por grid no frontend.  
+
+### Atualizações:
+- 🔄 **API Atualizada**: Otimizações e novas rotas.  
+- 🔄 **Open.AI Atualizado**: Versão da biblioteca OpenAI atualizada.  
+- 🔄 **API Mercado Pago**: Endpoints ajustados e melhorias.  
+- 🔄 **API Asaas**: Correções e atualizações nos serviços.  
+
+### Novas Funcionalidades:
+- ✨ **Repetir senha no cadastro de conta**: Campo de confirmação de senha adicionado no registro.  
+- ✨ **Repetir senha ao cadastrar usuário**: Campo de confirmação de senha na criação de usuários.  
+
+---
+
+## 🚀 Versão 1.0.21 - 18/04/2025
+
+### Correções e Melhorias:
+- 🛠️ **Organização dos campos de configuração**: Reordenação e agrupamento lógico.  
+- 🛠️ **Campos Table para Switch**: Substituição de campos table por switches.  
+- 🛠️ **Layout responsivo com Grid**: Remodelagem de Planos de assinatura e Ajuda.  
+- 🛠️ **Plano de fundo do Login**: Alterado para assets da pasta frontend.  
+- 🛠️ **Correção do layout da página de assinatura**: Ajustes de estilo e responsividade.  
+- 🛠️ **Remoção do modo escuro**: UI padronizada apenas em tema claro.  
+- 🛠️ **Barra superior sólida**: Aplicação de cor sólida na navegação.  
+- 🛠️ **Ícones coloridos**: Substituição de ícones monocromáticos por coloridos.  
+
+### Atualizações:
+- 🔄 **API Atualizada**: Melhorias gerais na performance.  
+- 🔄 **Transcrição de áudio**: Mecanismo de transcrição aprimorado.  
+- 🔄 **Financeiro**: Suporte a Cartão de Crédito, Débito e PIX.  
+- 🔄 **OpenAI Atualizado**: Versão da API atualizada.  
+- 🔄 **NodeJS Atualizado**: Atualização do runtime.  
+- 🔄 **Cron na instalação**: Inclusão de task scheduler no setup.  
+- 🔄 **Botão de cadastro**: Novo botão “Entrar no sistema” em fluxo de cadastro.  
+- 🔄 **Tarefas com Editor de texto e Emojis**: Nova funcionalidade de tarefas.  
+- 🔄 **Ajuda no Menu**: Seção de suporte adicionada.  
+- 🔄 **Versão no Sidebar**: Exibição dinâmica da versão via package.json.  
+
+### Novas Funcionalidades:
+- ✨ **Campo Repetir senha no cadastro**: Validação de confirmação de senha.  
+- ✨ **Campo Repetir senha na edição de usuário**: Mesma validação na edição.  
+- ✨ **Documentação da API**: Documentação integrada ao sistema.  
+- ✨ **Novo Dashboard**: Painel inicial reformulado.  
+- ✨ **Novo Atendimento**: Nova estrutura de atendimento.  
+- ✨ **Novo Instalador**: Processo de instalação refeito.  
+
+---
+
+## 🚀 Versão 1.0.20 - 15/04/2025
+
+### Novas Funcionalidades:
+- ✨ **Integração com WhatsApp**: Suporte a mensagens via WhatsApp.  
+- ✨ **Integração com Facebook**: Suporte a envios e recebimentos via Facebook.  
+- ✨ **Integração com Instagram**: Suporte a envios e recebimentos via Instagram.  
+- ✨ **Integração ChatGPT**: Conexão com API do ChatGPT.  
+- ✨ **Integração DialogFlow**: Conexão com Google DialogFlow.  
+- ✨ **Integração TypeBot**: Conexão com TypeBot.  
+- ✨ **Suporte a Webhooks**: Recebimento de eventos via Webhook.  
+- ✨ **CRM Kanban**: Painel Kanban de leads e tickets.  
+- ✨ **FlowBuilder nova versão**: Atualização do construtor de fluxos.  
+- ✨ **Integração Mercado Pago**: Pagamentos via Mercado Pago.  
+- ✨ **Integração Stripe**: Pagamentos via Stripe.  
+- ✨ **Integração Asaas**: Pagamentos via Asaas.  
+- ✨ **Integração OpenAI**: Conexão com API OpenAI.  
+- ✨ **Integração EFI (GerenciaNET)**: Conexão com EFI GerenciaNET.  
+
+---
+
+## 🚀 Versão 1.0.19 - 10/04/2025
+
+### Novas Funcionalidades:
+- ✨ **Sistema SaaS**: Plataforma como serviço habilitada.  
+- ✨ **Multiempresas**: Suporte a múltiplas empresas.  
+- ✨ **Dashboard de atendimentos**: Visão geral das interações.  
+- ✨ **Criação de Chatbot por fluxos**: Editor de fluxos integrado.  
+- ✨ **CRM Kanban**: Painel Kanban de tickets.  
+- ✨ **Integrações com fluxos do mercado**: Conexões com ferramentas de automação.  
+- ✨ **Controle de Grupos**: Gerenciamento de grupos de atendimento.  
+- ✨ **Disparo em Massa**: Envio massivo de mensagens.  
+- ✨ **Relatórios avançados**: Geração de relatórios customizados.  
+- ✨ **Controle de equipes**: Gestão de permissões e atribuições.  
+- ✨ **Controle de notas de atendimento**: Anotações internas por ticket.  
+- ✨ **Controle de protocolos**: Registro de protocolos únicos.  
+- ✨ **Controle de avaliações**: Coleta e análise de feedback.  
+- ✨ **Atendimento por carteiras**: Distribuição de tickets por carteiras.  
+- ✨ **Transferência automática de filas**: Redistribuição automática de tickets.  
+- ✨ **Encerramento por inatividade**: Tickets fechados após inatividade.  
+- ✨ **Organização de ordem de fila**: Configuração de prioridades.  
+- ✨ **Saudação ao aceitar ticket**: Mensagem de boas-vindas automática.  
+- ✨ **Mensagem de transferência**: Notificação ao mover ticket.  
+- ✨ **Atendentes múltiplos por conta**: Vários agentes em um login.  
+- ✨ **Sem limite de WhatsApp**: Remoção de restrições de contas.  
+- ✨ **Sem limite de mensagens**: Remoção de limites de envio.  
+- ✨ **Criação de filas personalizadas**: Comercial, Suporte, Financeiro etc.  
+- ✨ **Menu interativo inicial**: Navegação simplificada.  
+- ✨ **Transferência de filas manual**: Opção de mover tickets manualmente.  
+- ✨ **Cadastro de usuários**: Novo fluxo de cadastro.  
+- ✨ **Envio de arquivos e áudio**: Suporte a anexos e gravações.  
+- ✨ **Respostas Rápidas**: Sugestões de mensagens pré-definidas.  
+- ✨ **Responsividade móvel**: Uso otimizado em dispositivos móveis.  
+- ✨ **API via POST com token**: Endpoints seguros.  
+- ✨ **Etiquetas**: Tags customizáveis.  
+- ✨ **Horários de atendimento**: Definição de janelas de suporte.  
+- ✨ **Códigos curtos**: Identificadores personalizados.  
+- ✨ **Campanhas em massa**: Configuração e relatórios.  
+- ✨ **Usuários simultâneos**: Várias sessões ativas.  
+- ✨ **Mensagens de saudação e finalização**: Automação de início e fim.  
+- ✨ **Ignorar mensagens de grupos**: Filtro de mensagens de grupos.  
+
+
 ## 🚀 Versão 1.0.18 - 10/03/2025
 
 ### Correções e Melhorias:
