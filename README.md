@@ -1,6 +1,6 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.24 - Janeiro/2025
+## 🚀 Versão 1.0.24 - 14/09/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Dashboard Reformulado**: Design moderno com gradientes, sombras, bordas arredondadas e tipografia Inter.
