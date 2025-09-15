@@ -1,6 +1,35 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.21.v4- 15/08/2025
+## 🚀 Versão 1.0.24 - Janeiro/2025
+
+### Correções e Melhorias:
+- 🛠️ **Dashboard Reformulado**: Design moderno com gradientes, sombras, bordas arredondadas e tipografia Inter.
+- 🛠️ **Layout Responsivo**: Grid adaptável, container expandido e espaçamentos consistentes.
+- 🛠️ **Componentes Reestruturados**: Cards de estatísticas, tabs redesenhados, botões com transições suaves.
+- 🛠️ **Animações e Interações**: Efeitos de entrada, hover e transições aplicados em todos os elementos.
+- 🛠️ **Compatibilidade Ampliada**: Suporte atualizado para navegadores modernos e dispositivos móveis.
+
+### Atualizações:
+- 🔄 **Arquivos Modificados**: index.js: Reformulação do dashboard principal com novos estilos.
+- 🔄 **CardCounter.js**: Estrutura aprimorada dos cards com efeitos visuais.
+- 🔄 **Dashboard.css**: Novas classes CSS, animações e utilitários.
+- 🔄 **Classes CSS Criadas**: .dashboard-card, .welcome-section, .tab-container, .enhanced-shadow, .stats-card, .stats-icon, .rounded-card, .enhanced-typography, .smooth-transition.
+- 🔄 **Funcionalidades Mantidas**: Filtros, exportação Excel, gráficos, tabelas, tabs, API e autenticação preservados.
+- 🔄 **Próximas Melhorias Planejadas**: Tema claro/escuro, novos gráficos, dashboard personalizável, exportação PDF, filtros avançados e métricas em tempo real.
+
+### Novas Funcionalidades:
+- ✨ **useMultiFileAuthState.ts Melhorado**
+- ✨ **TTL Automático**: Sessões no Redis com expiração de 24h.
+- ✨ **Limpeza Automática**: Sessões obsoletas removidas a cada hora.
+- ✨ **Monitoramento de Memória**: Estatísticas e alertas automáticos com thresholds configuráveis.
+- ✨ **Tratamento de Erros**: Logging robusto, validação de entrada e retry mechanism com backoff exponencial.
+- ✨ **Funções de Utilidade**: cleanupExpiredSessions, getSessionMemoryUsage, checkMemoryUsage, cleanupAuthState.
+- ✨ **Graceful Shutdown**: Rotina de cleanup integrada ao desligamento da aplicação.
+- ✨ **Métricas Detalhadas**: Estatísticas de sessões, chaves, memória e logs de operações.
+
+---
+
+## 🚀 Versão 1.0.22- 15/08/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Event Listeners Duplicados**: Removidos listeners duplicados que causavam consumo extra de memória.
