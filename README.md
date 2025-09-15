@@ -1,22 +1,25 @@
 # Log de Versões
 
-
-## 🚀 Versão 1.0.22 - 05/05/2025
+## 🚀 Versão 1.0.23 - 14/09/2025
 
 ### Correções e Melhorias:
-- 🛠️ **Troca de componentes para Switch**: Substituição de campos antigos por switches para melhorar a usabilidade.  
-- 🛠️ **Melhorias no Layout**: Ajustes visuais para consistência e responsividade.  
-- 🛠️ **Mudança de Table para Grid**: Substituição de tabelas por grid no frontend.  
+- 🛠️ **Correção de Vazamentos de Memória**: Removidos event listeners duplicados e centralizados em wbotMessageListener.ts.
+- 🛠️ **Compilação TypeScript Corrigida**: Ajustadas chamadas de removeAllListeners() com eventos específicos.
+- 🛠️ **Cleanup Coordenado**: Implementada função cleanupWbot() global com integração ao graceful shutdown.
+- 🛠️ **Controle de setInterval: Todos os setInterval agora possuem variáveis de controle e são limpos no shutdown.
+- 🛠️ **Isolamento de Cache por Empresa**: Cada empresa agora possui cache próprio com rotina de manutenção automática.
+- 🛠️ **Remoção de Process Listeners Conflitantes**: Handlers duplicados eliminados em wbot.ts.
+- 🛠️ **Tratamento de Erros Melhorado**: Logs detalhados substituíram catches vazios, garantindo visibilidade de falhas.
 
 ### Atualizações:
-- 🔄 **API Atualizada**: Otimizações e novas rotas.  
-- 🔄 **Open.AI Atualizado**: Versão da biblioteca OpenAI atualizada.  
-- 🔄 **API Mercado Pago**: Endpoints ajustados e melhorias.  
-- 🔄 **API Asaas**: Correções e atualizações nos serviços.  
+- 🔄 **useMultiFileAuthState Refatorado**: TTL de 24h para sessões, limpeza automática a cada hora e monitoramento de memória com alertas.
+- 🔄 **Servidor e Cluster**: Graceful shutdown coordenado com timeout de segurança, integração com cleanupAuthState e Redis validado antes de operações críticas.
+- 🔄 **Métricas e Logs Detalhados**: Novos logs de cache, cleanup e estatísticas de sessões para auditoria e monitoramento contínuo.
 
 ### Novas Funcionalidades:
-- ✨ **Repetir senha no cadastro de conta**: Campo de confirmação de senha adicionado no registro.  
-- ✨ **Repetir senha ao cadastrar usuário**: Campo de confirmação de senha na criação de usuários.  
+- ✨ **Monitoramento Automático de Memória**: Alertas em tempo real para consumo excessivo no Redis e estatísticas de uso por sessão.
+- ✨ **Limpeza Automática de Sessões Obsoletas**: Sessões inativas por mais de 7 dias são removidas e chaves corrompidas são eliminadas.- 
+- ✨ **Funções de Utilidade Exportadas**: cleanupExpiredSessions, getSessionMemoryUsage, checkMemoryUsage e cleanupAuthState disponíveis para uso externo.
 
 ---
 
