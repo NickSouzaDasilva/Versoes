@@ -1,6 +1,30 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.23 - 14/09/2025
+## 🚀 Versão 1.0.21.v3 - 10/08/2025
+
+### Correções e Melhorias:
+- 🛠️ **Tratamento do erro unhandledRejection**: Implementação de sistema global de captura de Promises rejeitadas.
+- 🛠️ **Remoção de listeners conflitantes no Wbot**: Ajustes em wbot.ts para evitar múltiplos process listeners.
+- 🛠️ **Melhoria no Cleanup do Wbot**: Função cleanupWbot() agora assíncrona e robusta.
+- 🛠️ **Tratamento centralizado de erros**: Logs detalhados antes de crash, com integração ao Sentry.
+- 🛠️ **Server.ts e Server-cluster.ts**: Integração com novo sistema de tratamento de erros.
+
+### Atualizações:
+- 🔄 **Configuração do Nodemon**: Inclusão de nodemon.json com crash handling robusto.
+- 🔄 **Scripts de desenvolvimento**: Novos scripts test:cleanup, test:auth-state e melhorias em npm start e start:prod.
+- 🔄 **Monitoramento de memória**: Logs periódicos a cada 5 minutos com alertas automáticos.
+- 🔄 **Timeouts de segurança**: Prevenção contra travamentos em operações longas.
+- 🔄 **Integração Sentry**: Captura automática de erros para monitoramento e alertas.
+
+### Novas Funcionalidades:
+- ✨ **Arquivo errorHandler.ts**: Novo sistema centralizado de tratamento global de erros.
+- ✨ **Reinicialização robusta**: Nodemon configurado com "crash": false, "exitcrash": false, delay e restart manual com rs.
+- ✨ **Alertas inteligentes de cache**: Notificação quando cache de mensagens/grupos atinge limites configurados.
+- ✨ **Logs detalhados de operação**: Uso de memória, estatísticas de cache e estado de sessões agora visíveis nos logs.
+
+---
+
+## 🚀 Versão 1.0.21.V2 - 09/07/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Correção de Vazamentos de Memória**: Removidos event listeners duplicados e centralizados em wbotMessageListener.ts.
