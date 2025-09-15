@@ -1,5 +1,30 @@
 # Log de Versões
 
+## 🚀 Versão 1.0.21.v4- 15/08/2025
+
+### Correções e Melhorias:
+- 🛠️ **Event Listeners Duplicados**: Removidos listeners duplicados que causavam consumo extra de memória.
+- 🛠️ **Conflitos de Process Listeners**: Corrigidos conflitos entre múltiplos handlers de sinais.
+- 🛠️ **Cleanup Não Coordenado**: Implementado sistema unificado de graceful shutdown.
+- 🛠️ **setInterval Não Controlados**: Todos os intervalos agora são devidamente monitorados e limpos.
+- 🛠️ **Caches Acumulativos**: Implementado isolamento de cache por empresa para evitar crescimento descontrolado.
+- 🛠️ **Erros de Compilação TypeScript**: Ajustes em tipos e sintaxe para garantir build limpo.
+
+### Atualizações:
+- 🔄 **Sistema de Cleanup Coordenado**: Fluxo de shutdown integrado entre server.ts, server-cluster.ts e wbot.ts.
+- 🔄 **Arquitetura de Monitoramento**: Logs detalhados de cleanup em listeners, monitores e sessões.
+- 🔄 **Scripts de Teste**: Inclusão de verify-build.js e test-cleanup.js para validação automatizada.
+- 🔄 **Documentação Técnica**: Adicionado VAZAMENTOS_MEMORIA_CORRIGIDOS.md com explicações completas.
+- 🔄 **Validação de Sintaxe TypeScript**: Comando npx tsc --noEmit adicionado ao fluxo de testes.
+
+### Novas Funcionalidades:
+- ✨ **Graceful Shutdown Total**: Encerramento coordenado de servidor, wbot e serviços relacionados.
+- ✨ **Logs Estruturados de Cleanup**: Monitoramento detalhado do processo de desligamento.
+- ✨ **Métricas de Cache por Empresa**: Avisos automáticos quando limites são atingidos.
+- ✨ **Extensibilidade de Cleanup**: Possibilidade de adicionar novos serviços com funções de cleanup
+
+---
+
 ## 🚀 Versão 1.0.21.v3 - 10/08/2025
 
 ### Correções e Melhorias:
