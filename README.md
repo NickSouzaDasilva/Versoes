@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 Versão 1.0.22- 15/08/2025
+## 🚀 Versão 1.0.23- 15/08/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Event Listeners Duplicados**: Removidos listeners duplicados que causavam consumo extra de memória.
@@ -54,7 +54,7 @@
 
 ---
 
-## 🚀 Versão 1.0.21.v3 - 10/08/2025
+## 🚀 Versão 1.0.22 - 10/08/2025
 
 ### Correções e Melhorias:
 - 🛠️ **Tratamento do erro unhandledRejection**: Implementação de sistema global de captura de Promises rejeitadas.
