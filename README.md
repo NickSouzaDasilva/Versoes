@@ -6,7 +6,7 @@
 ### Correções e Melhorias:
 - 🛠️ **Relatorio de atendimentos**: Corrigido filtro de busca por usuario que estava em loop e não limpava o campo.
 - 🛠️ **Layout Responsivo**: Ajustado o campo lid da API, pois andas buscava por JID os contatos.
-Obs.: ainda não está 100% funcional essa parte, o próprio WhatsApp está com problemas.
+- Obs.: ainda não está 100% funcional essa parte, o próprio WhatsApp está com problemas.
 
 ### Atualizações:
 - 🔄 **Arquivos Modificados**: Atualizado API de 6.7.19 para 7.0.0.cr5.
