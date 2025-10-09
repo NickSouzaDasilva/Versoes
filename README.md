@@ -1,5 +1,29 @@
 # Log de Versões
 
+
+## 🚀 Versão 1.0.25 - 04/10/2025
+
+### Correções e Melhorias:
+- 🛠️ **Relatorio de atendimentos**: Corrigido filtro de busca por usuario que estava em loop e não limpava o campo.
+- 🛠️ **Layout Responsivo**: Ajustado o campo lid da API, pois andas buscava por JID os contatos.
+Obs.: ainda não está 100% funcional essa parte, o próprio WhatsApp está com problemas.
+
+### Atualizações:
+- 🔄 **Arquivos Modificados**: Atualizado API de 6.7.19 para 7.0.0.cr5.
+
+
+
+### Novas Funcionalidades:
+- ✨ **useMultiFileAuthState.ts Melhorado**
+- ✨ **TTL Automático**: Ajustado e validado Sessões no Redis com expiração de 24h que causavam quebra da aplicação.
+- ✨ **Limpeza Automática**: Melhorado Sessões obsoletas removidas a cada hora.
+- ✨ **Funções de Utilidade**: cleanupExpiredSessions, getSessionMemoryUsage, checkMemoryUsage, cleanupAuthState.
+- ✨ **Graceful Shutdown**: Melhoria na Rotina de cleanup integrada ao desligamento da aplicação.
+- ✨ **Métricas Detalhadas**: Ajustado Estatísticas de sessões, chaves, memória e logs de operações.
+
+---
+
+
 ## 🚀 Versão 1.0.24 - 14/09/2025
 
 ### Correções e Melhorias:
