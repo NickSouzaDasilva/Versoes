@@ -14,7 +14,6 @@ Obs.: ainda não está 100% funcional essa parte, o próprio WhatsApp está com 
 
 
 ### Novas Funcionalidades:
-- ✨ **useMultiFileAuthState.ts Melhorado**
 - ✨ **TTL Automático**: Ajustado e validado Sessões no Redis com expiração de 24h que causavam quebra da aplicação.
 - ✨ **Limpeza Automática**: Melhorado Sessões obsoletas removidas a cada hora.
 - ✨ **Funções de Utilidade**: cleanupExpiredSessions, getSessionMemoryUsage, checkMemoryUsage, cleanupAuthState.
