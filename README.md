@@ -44,6 +44,15 @@ Bloqueio de mensagens livres fora da janela.
 - 🚧 Fallback automático entre números
 - 🚧 Integração com billing e custos por conversa
 
+---
+
+## 🚀 Versão 1.0.26 - 26/10/2025
+
+### Correções e Melhorias:
+- 🛠️ **Contatos vindo com @Lid**: Ajustado para atualizar o contato existente.
+
+---
+
 ## 🚀 Versão 1.0.25 - 04/10/2025
 
 ### Correções e Melhorias:
