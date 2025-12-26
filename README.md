@@ -1,5 +1,48 @@
 # Log de Versões
 
+## 🚀 Versão 1.0.27 – Integração API Oficial WhatsApp (Cloud API)
+
+### Correções e Melhorias:
+- 🛠️ **Migração Completa para API Oficial do WhatsApp (Meta Cloud API)**: Substituição progressiva da API não oficial, garantindo conformidade com as políticas da Meta.
+- 🛠️ **Fluxo OAuth Oficial Aprimorado**: Implementação completa do OAuth com User Token + System User Token, respeitando escopos e permissões exigidas.
+- 🛠️ **Correção de Rotas Graph API**: Ajuste correto de endpoints (/me/whatsapp_business_accounts, /phone_numbers, /messages) evitando erros (#100) e (#2500).
+- 🛠️ **Isolamento Correto por WABA e Phone Number ID**: Garantia de que cada empresa utilize seu próprio WABA e número sem conflito.
+- 🛠️ **Logs Avançados de Onboarding**: Registro detalhado de cada etapa do processo (OAuth, vínculo de WABA, números, webhook e status).
+- 🛠️ **Validação Automática de Status do Número**: Checagem de code_verification_status antes de qualquer tentativa de registro.
+- 🛠️ **Prevenção de Rate Limit**: Estratégia segura respeitando o limite de 10 tentativas de registro por número em 72h.
+- 🛠️ **Webhook Cloud API Otimizado**: Tratamento completo de eventos de mensagens, status, templates e mudanças de aprovação.
+
+### Atualizações:
+- 🔄 **WhatsAppOAuthService.ts**: Fluxo OAuth revisado conforme padrão oficial da Meta Separação clara entre User Access Token (onboarding) e System User Token (operações críticas).
+- 🔄 **RegisterPhoneNumberService.ts**: Registro condicional de números apenas quando aprovados Fallback automático para registro via webhook.
+- 🔄 **WebhookCloudApiController.ts**: Processamento de eventos de aprovação de número Registro automático pós-aprovação.
+- 🔄 **Serviços de Mensageria**: Ajustes para envio via phone_number_id conforme exigido pela Cloud API.
+- 🔄 **Compatibilidade com Graph API v24.0**:  Api versão mais atual no momento.
+
+### Novas Funcionalidades:
+- ✨ **Suporte Completo à Janela de Atendimento de 24 Horas**: Controle automático da janela de atendimento conforme regras oficiais do WhatsApp
+Bloqueio de mensagens livres fora da janela.
+- ✨ **Templates de Mensagens Oficiais (HSM)**: Envio de mensagens template aprovadas pela Meta Uso obrigatório fora da janela de 24h.
+- ✨ **Campanhas via Templates Disparo de campanhas em massa**: utilizando templates aprovados Compatível com notificações, cobranças, marketing e utilidade.
+- ✨ **Validação Automática de Template**: Checagem de status (APPROVED / PENDING / REJECTED) antes do envio.
+- ✨ **Envio Inteligente de Mensagens Dentro da janela**: → mensagem livre Fora da janela → envio automático via template.
+- ✨ **Webhook de Status de Templates Atualização automática**: quando templates são aprovados ou rejeitados.
+- ✨ **Logs Detalhados de Campanhas Rastreamento de envio**: falhas, status e respostas.
+- ✨ **Preparação para Escalonamento Estrutura pronta para múltiplas empresas**: (multi-tenant) Suporte nativo a múltiplos números por WABA.
+
+### Funcionalidades Mantidas:
+- 🔒 Autenticação e autorização existentes
+- 📊 Dashboard e métricas
+- 💬 Sistema de tickets
+- 🔔 Webhooks e notificações
+- 🧠 Cache e persistência de dados
+
+### 🔄 Integração com serviços já existentes Próximas Melhorias Planejadas:
+- 🚧 Gerenciamento visual de templates no painel
+- 🚧 Agendamento de campanhas
+- 🚧 Métricas avançadas de campanhas (entregue, lido, falha)
+- 🚧 Fallback automático entre números
+- 🚧 Integração com billing e custos por conversa
 
 ## 🚀 Versão 1.0.25 - 04/10/2025
 
@@ -11,8 +54,6 @@
 ### Atualizações:
 - 🔄 **Arquivos Modificados**: Atualizado API de 6.7.19 para 7.0.0.cr5.
 
-
-
 ### Novas Funcionalidades:
 - ✨ **TTL Automático**: Ajustado e validado Sessões no Redis com expiração de 24h que causavam quebra da aplicação.
 - ✨ **Limpeza Automática**: Melhorado Sessões obsoletas removidas a cada hora.
@@ -21,7 +62,6 @@
 - ✨ **Métricas Detalhadas**: Ajustado Estatísticas de sessões, chaves, memória e logs de operações.
 
 ---
-
 
 ## 🚀 Versão 1.0.24 - 14/09/2025
 
