@@ -1,6 +1,6 @@
 # Log de Versões
 
-## 🚀 Versão 1.0.27 – Integração API Oficial WhatsApp (Cloud API)
+## 🚀 Versão 1.0.27- 26/12/2025 – Integração API Oficial WhatsApp (Cloud API)
 
 ### Correções e Melhorias:
 - 🛠️ **Migração Completa para API Oficial do WhatsApp (Meta Cloud API)**: Substituição progressiva da API não oficial, garantindo conformidade com as políticas da Meta.
