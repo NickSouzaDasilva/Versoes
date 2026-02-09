@@ -4,15 +4,15 @@
 
 ### Correções e Melhorias:
 - 🛠️ **Botões dos Templates**: Ajustado para aceitar botões nos templates conforme documentação da meta.
-- 🛠️ **Variaveis nos Templates**: Corrigido variaveis nos templates para cada extrutura ter sua variavel e contador.
-- 🛠️ **Identificação variaveis botões**: Ajustado mensagens nos campos das variaveis para identificar de qual parametro e cada variavel exemplo: corpo da mensagem.
+- 🛠️ **Variáveis nos Templates**: Corrigidas variáveis nos templates para cada estrutura ter sua variável e contador.
+- 🛠️ **Identificação de variáveis de botões**: Ajustadas mensagens nos campos das variáveis para identificar de qual parâmetro é cada variável, exemplo: corpo da mensagem.
 - 🛠️ **Conexão**: Ajustado no frontend para a conexão só montar o componente quando tiver um usuario valido.
-- 🛠️ **Previa de Mensagens**: Ajustado as previas de mensagens para atualizar corretamente a cada mensagem chegada e enviada.
-- 🛠️ **Imagens Template**: Corrigido visualização de imagens no templates, estavam salvando caminho errado no banco e não mostrava no frontend somente enviava ao usuario.
-- 🛠️ **Vazamento de memoria**: Ajustado em algumas partes do codigo onde continha vazamento de memoria deixando o sistema lento.
+- 🛠️ **Prévia de Mensagens**: Ajustadas as prévias de mensagens para atualizar corretamente a cada mensagem chegada e enviada.
+- 🛠️ **Imagens Template**: Corrigida visualização de imagens no templates, estavam salvando caminho errado no banco e não mostrava no frontend, somente enviava ao usuário.
+- 🛠️ **Vazamento de memória**: Ajustado em algumas partes do código onde continha vazamento de memória, deixando o sistema lento.
 
 ### Atualizações:
-- 🔄 **Audio de novas Mensagens**: Adicionado novo som para mensagens recebidas.
+- 🔄 **Áudio de novas Mensagens**: Adicionado novo som para mensagens recebidas.
 
 ---
 
